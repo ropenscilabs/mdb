@@ -1,0 +1,21 @@
+Package: mdb
+Title: Client for 'mdbtools'
+Description: Client for 'mdbtools'.
+Version: 0.0.1.91
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+Authors@R: c(
+    person("Scott", "Chamberlain", role = c("aut", "cre"),
+        email =  "myrmecocystus@gmail.com")
+    )
+VignetteBuilder: knitr
+URL: https://docs.ropensci.org/mdb (docs), https://github.com/ropensci/mdb (devel)
+BugReports: https://github.com/ropensci/mdb/issues
+SystemRequirements: libmdbtools: mdbtools (rpm) or mdbtools-dev (deb)
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+RoxygenNote: 7.1.0
